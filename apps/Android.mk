@@ -8,6 +8,7 @@ LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := accord/accord.apk
 LOCAL_PRODUCT_MODULE := true
 LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions androidx.window.sidecar
+LOCAL_OVERRIDES_PACKAGES := Eleven
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
